@@ -120,7 +120,7 @@ public class AbhigyanMohanta_31
 //******* OUTPUT 1 (ENCRYPTION) ***********************************
 
 //        Enter the text:
-//        hello
+//        hello world
 //        Enter 1 to encrypt the text
 //        Enter 2 to decrypt the text
 //        1
@@ -128,13 +128,13 @@ public class AbhigyanMohanta_31
 //        7
 //        Enter the value of key2(Additive Key):
 //        2
-//        The encrypted text is: zebbw
+//        The encrypted text is: zebbw awrbx
 
 
 //******* OUTPUT 2 (DECRYPTION) **********************************
 
 //        Enter the text:
-//        zebbw
+//        zebbw awrbx
 //        Enter 1 to encrypt the text
 //        Enter 2 to decrypt the text
 //        2
@@ -142,6 +142,6 @@ public class AbhigyanMohanta_31
 //        7
 //        Enter the value of key2(Additive Key):
 //        2
-//        The decrypted text is: hello
+//        The decrypted text is: hello world
 
 
