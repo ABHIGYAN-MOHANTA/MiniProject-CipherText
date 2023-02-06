@@ -43,7 +43,11 @@ public class AbhigyanMohanta_31
         for(int i=0;i<plaintext.length();i++)
         {
             checkCase = plaintext.charAt(i);
-            if(Character.isUpperCase(checkCase))
+            if(checkCase == ' ')
+            {
+                ciphertext[i]=' ';
+            }
+            else if(Character.isUpperCase(checkCase))
             {
                 charint = plaintext.charAt(i) - 'A';
                 C = (charint*k1+k2)%26;
@@ -80,7 +84,11 @@ public class AbhigyanMohanta_31
         for(int i=0; i<ciphertext.length(); i++)
         {
             checkCase = ciphertext.charAt(i);
-            if(Character.isUpperCase(checkCase))
+            if(checkCase == ' ')
+            {
+                plaintext[i]= ' ';
+            }
+            else if(Character.isUpperCase(checkCase))
             {
                 charint = ciphertext.charAt(i) - 'A';
                 firstterm = charint - k2;
